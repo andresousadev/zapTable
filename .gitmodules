@@ -1,6 +1,3 @@
 [submodule "zapTable-backend"]
 	path = zapTable-backend
 	url = https://github.com/andresousadev/zapTable-backend.git
-[submodule "zapTable-frontend"]
-	path = zapTable-frontend
-	url = https://github.com/teclas07/zapTable-frontend.git
