@@ -23,7 +23,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./zapTable-backend
+      - ./zapTable-backend:/usr/app
     depends_on:
       - db
   frontend:
