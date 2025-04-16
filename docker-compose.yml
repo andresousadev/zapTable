@@ -15,8 +15,8 @@ services:
       - "6379:6379"
     volumes:
       - ./cache:/data
-  backend:
-    container_name: zapTable_backend
+  admin:
+    container_name: zapTable_admin
     build:
       context: .
       dockerfile: backend.Dockerfile
